@@ -33,6 +33,7 @@ minima:
   skin: auto
   social_links:
     twitter: snaileditdev
+show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
