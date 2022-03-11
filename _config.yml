@@ -55,3 +55,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
