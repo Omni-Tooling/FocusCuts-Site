@@ -1,3 +1,4 @@
 ---
-layout: page
+layout: landing
+title: FocusCuts
 ---
