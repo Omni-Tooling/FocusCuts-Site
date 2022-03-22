@@ -32,11 +32,11 @@ layout: default
     {% endfor %}
     <div class="sidenav">
         <ul>
-            {{ contents_list | join: "\n" }}
+            {{ contents_list | join: "" }}
         </ul>
     </div>
 
     <div class="documentation">
-    {{ documentation | join: "\n" }}
+    {{ documentation | join: "" }}
     </div>
 </article>
