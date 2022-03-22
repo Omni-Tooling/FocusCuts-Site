@@ -1,2 +1,66 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/temp/custom-variables.scss` to override variable defaults)
+
+.homepage-icon {
+  width: 150px;
+  aspect-ratio: 1;
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.menubar-icon {
+  aspect-ratio: 1;
+  height: 1.625rem;
+  line-height: 0;
+}
+
+.docs-page {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+      "post-header post-header"
+      "page-content sidebar"
+      "documentation sidebar";
+  @include media-query($on-palm) {
+    grid-template-areas:
+      "post-header"
+      "page-content"
+      "sidebar"
+      "documentation";
+  }
+
+  .post-header {
+    grid-area: post-header;
+  }
+
+  .page-content {
+    padding: revert;
+    grid-area: page-content;
+  }
+
+  .documentation {
+    grid-area: documentation;
+  }
+
+  .sidenav {
+    grid-area: sidebar;
+    @media (min-width: $on-palm) {
+      border-left: solid 1px $text-color;
+    }
+
+    ul {
+      @media (min-width: $on-palm) {
+        margin-left: 1em;
+      }
+      @include media-query($on-palm) {
+        padding: 1em;
+        border: solid 1px $text-color;
+        margin-left: revert;
+      }
+      list-style: none;
+    }
+  }
+}
