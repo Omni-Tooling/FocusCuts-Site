@@ -14,9 +14,10 @@ layout: default
     {% assign contents_list = "" | split: ',' %}
     {% assign documentation = "" | split: ',' %}
 
-    {% for doc in site.documentation %}
+    {% assign docs_collection = site.documentation | where: "published", true | sort: "title" %}
+    {% for doc in docs_collection %}
 
-    {% assign anchor_link = doc.path | replace: "_documentation/", "" | replace: ".md", "" %}
+    {% assign anchor_link = doc.title | slugify %}
     {% capture toc_link %}
     <li><a href="#{{ anchor_link }}">{{ doc.title }}</a></li>
     {% endcapture %}
