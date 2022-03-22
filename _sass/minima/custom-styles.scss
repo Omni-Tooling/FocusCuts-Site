@@ -1,2 +1,18 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/temp/custom-variables.scss` to override variable defaults)
+
+.homepage-icon {
+  width: 150px;
+  aspect-ratio: 1;
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.menubar-icon {
+  aspect-ratio: 1;
+  height: 1.625rem;
+  line-height: 0;
+}
