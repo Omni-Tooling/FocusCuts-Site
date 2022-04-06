@@ -63,7 +63,7 @@
       }
       list-style: none;
 
-      li {
+      li:not(:last-of-type) {
         padding-bottom: 0.5em;
       }
     }
