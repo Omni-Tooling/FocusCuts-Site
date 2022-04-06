@@ -43,6 +43,7 @@
 
   .documentation {
     grid-area: documentation;
+    margin-right: 1em;
   }
 
   .sidenav {
@@ -61,6 +62,10 @@
         margin-left: revert;
       }
       list-style: none;
+
+      li:not(:last-of-type) {
+        padding-bottom: 0.5em;
+      }
     }
   }
 }
