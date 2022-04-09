@@ -1,6 +1,10 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/temp/custom-variables.scss` to override variable defaults)
 
+.site-title:hover {
+  text-decoration: none;
+}
+
 .homepage-icon {
   width: 150px;
   aspect-ratio: 1;
@@ -44,6 +48,30 @@
   .documentation {
     grid-area: documentation;
     margin-right: 1em;
+
+    .shortcuts-action {
+      height: 0.8em;
+      padding-bottom: 0.1em;
+      padding-left: 0.25em;
+    }
+
+    .docs-tip {
+      display: grid;
+      font-size: 0.8em;
+      grid-template-areas:
+      "title content";
+      grid-template-columns: auto 1fr;
+      padding-left: 2em;
+
+      .tip-title {
+        grid-area: title;
+        padding-right: 0.5em;
+      }
+
+      .tip-content {
+        grid-area: content;
+      }
+    }
   }
 
   .sidenav {

@@ -12,22 +12,22 @@ layout: default
     </div>
 
     {% assign contents_list = "" | split: ',' %}
-    {% assign documentation = "" | split: ',' %}
+    {% assign shortcuts = "" | split: ',' %}
 
-    {% assign docs_collection = site.documentation | where: "published", true | sort: "title" %}
-    {% for doc in docs_collection %}
+    {% assign sc_collection = site.shortcuts_actions | where: "published", true | sort: "title" %}
+    {% for doc in sc_collection %}
 
     {% assign anchor_link = doc.title | slugify %}
-    {% assign anchor = '§' %}
+    {% assign anchor = "<img src='/assets/shortcuts-app-icon.png' alt='Shortcuts App Icon' class='shortcuts-action'>" %}
     {% capture toc_link %}
     <li><a href="#{{ anchor_link }}">{{ doc.title }}</a></li>
     {% endcapture %}
     {% assign contents_list = contents_list | push: toc_link %}
 
-    {% capture doc_section %}
+    {% capture sc_section %}
     {% include doc_section.html %}
     {% endcapture %}
-    {% assign documentation = documentation | push: doc_section %}
+    {% assign shortcuts = shortcuts | push: sc_section %}
 
     {% endfor %}
     <div class="sidenav">
@@ -37,6 +37,6 @@ layout: default
     </div>
 
     <div class="documentation">
-    {{ documentation | join: "" }}
+    {{ shortcuts | join: "" }}
     </div>
 </article>
