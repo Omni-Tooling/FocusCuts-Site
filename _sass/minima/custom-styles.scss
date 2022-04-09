@@ -44,6 +44,24 @@
   .documentation {
     grid-area: documentation;
     margin-right: 1em;
+
+    .docs-tip {
+      display: grid;
+      font-size: 0.8em;
+      grid-template-areas:
+      "title content";
+      grid-template-columns: auto 1fr;
+      padding-left: 2em;
+
+      .tip-title {
+        grid-area: title;
+        padding-right: 0.5em;
+      }
+
+      .tip-content {
+        grid-area: content;
+      }
+    }
   }
 
   .sidenav {

@@ -24,8 +24,7 @@ layout: default
     {% assign contents_list = contents_list | push: toc_link %}
 
     {% capture doc_section %}
-    <h2><a id="{{ anchor_link }}" href="#{{ anchor_link }}">§</a>&nbsp{{ doc.title }}</h2>
-    <p>{{ doc.content | markdownify }}</p>
+    {% include doc_section.html doc=doc %}
     {% endcapture %}
     {% assign documentation = documentation | push: doc_section %}
 

@@ -1,0 +1,12 @@
+<h2><a id="{{ anchor_link }}" href="#{{ anchor_link }}">§</a>&nbsp{{ doc.title }}</h2>
+<p>{{ doc.content | markdownify }}</p>
+{% if doc.tip %}
+<div class="docs-tip">
+    <span class="tip-title">
+    <strong>Tip:</strong>
+    </span>
+    <span class="tip-content">
+    {{ doc.tip | markdownify }}
+    </span>
+</div>
+{% endif %}
