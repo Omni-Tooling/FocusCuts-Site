@@ -1,6 +1,10 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/temp/custom-variables.scss` to override variable defaults)
 
+.site-title:hover {
+  text-decoration: none;
+}
+
 .homepage-icon {
   width: 150px;
   aspect-ratio: 1;
