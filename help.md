@@ -7,5 +7,3 @@ redirect_from:
 menu: true
 ---
 
-Here we have documentation.
-
