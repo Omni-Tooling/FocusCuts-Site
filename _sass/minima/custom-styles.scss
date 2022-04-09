@@ -45,6 +45,12 @@
     grid-area: documentation;
     margin-right: 1em;
 
+    .shortcuts-action {
+      height: 0.8em;
+      padding-bottom: 0.1em;
+      padding-left: 0.25em;
+    }
+
     .docs-tip {
       display: grid;
       font-size: 0.8em;
