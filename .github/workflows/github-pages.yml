@@ -25,3 +25,4 @@ jobs:
         with:
           jekyll_build_options: "JEKYLL_ENV=production -q"
           token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: 'gh-pages'
