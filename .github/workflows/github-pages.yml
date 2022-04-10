@@ -20,6 +20,6 @@ jobs:
             ${{ runner.os }}-gems-
       - uses: helaili/jekyll-action@2.0.5
         with:
-          jekyll_build_options: "JEKYLL_ENV=production"
+          jekyll_build_options: "JEKYLL_ENV=production -q"
           token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: 'gh-pages'
