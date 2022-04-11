@@ -27,7 +27,9 @@
 
 .docs-page {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  @media (min-width: $on-palm) {
+    grid-template-columns: 3fr 1fr;
+  }
   grid-template-areas:
       "post-header post-header"
       "page-content sidebar"
@@ -51,7 +53,7 @@
 
   .documentation {
     grid-area: documentation;
-    margin-right: 1em;
+    width: 100%;
 
     object {
       height: 1em;
@@ -85,6 +87,7 @@
     grid-area: sidebar;
     @media (min-width: $on-palm) {
       border-left: solid 1px $text-color;
+      margin-left: 1em;
     }
 
     ul {
