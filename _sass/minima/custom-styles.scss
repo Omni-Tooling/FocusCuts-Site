@@ -53,6 +53,10 @@
     grid-area: documentation;
     margin-right: 1em;
 
+    object {
+      height: 1em;
+    }
+
     .shortcuts-action {
       height: 0.8em;
       padding-bottom: 0.1em;
