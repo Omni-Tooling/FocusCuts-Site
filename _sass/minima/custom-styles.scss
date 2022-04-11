@@ -1,6 +1,10 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/temp/custom-variables.scss` to override variable defaults)
 
+.site-header {
+  border-top: none;
+}
+
 .site-title:hover {
   text-decoration: none;
 }
