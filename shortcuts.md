@@ -5,5 +5,6 @@ redirect_from:
   - /shortcuts-actions
   - /actions
 menu: true
+order: 2
 ---
 

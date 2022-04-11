@@ -1,7 +1,7 @@
 <header class="site-header">
 
   <div class="wrapper">
-    {%- assign site_pages = site.pages | where: "menu", true | sort: "title" -%}
+    {%- assign site_pages = site.pages | where: "menu", true | sort: "order" -%}
     {%- assign titles_size = site_pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><object type="image/svg+xml" class="menubar-icon"
                                                                             data="/assets/icons/focuscuts-bw.svg"
