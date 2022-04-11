@@ -5,6 +5,6 @@ redirect_from:
   - /documentation
   - /docs
 menu: true
-order: 1
+menu_order: 1
 ---
 
