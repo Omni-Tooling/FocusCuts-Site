@@ -15,9 +15,11 @@ minima:
     twitter: snaileditdev
 show_excerpts: true
 plugins:
+  - jekyll-email-protect
   - jekyll-feed
   - jekyll-redirect-from
 whitelist:
+  - jekyll-email-protect
   - jekyll-redirect-from
 collections:
   - documentation
