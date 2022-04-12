@@ -16,3 +16,8 @@ FocusCuts has three [Shortcuts actions](/shortcuts) to detect Focus Modes and pr
 
 ## Requirements
 FocusCuts requires macOS Monterey, as previous versions of macOS do not support Shortcuts or Focus Modes.
+
+## Contact
+Do you have a feature request or a bug report? Feel free to reach out!
+- [Twitter](twitter.com/SnailedItDev)
+- [Email](mailto:{{ site.email | encode_email }})
