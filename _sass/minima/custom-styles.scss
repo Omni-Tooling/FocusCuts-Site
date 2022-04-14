@@ -113,3 +113,26 @@
     }
   }
 }
+
+
+
+.legal {
+  display: grid;
+  grid-template-areas: "icon text";
+  grid-template-columns: auto 1fr;
+  padding-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  .icon {
+    grid-area: icon;
+    .snail-icon {
+      height: 2em;
+      padding-right: 1em;
+    }
+  }
+  .text {
+    grid-area: text;
+    font-size: 0.6em;
+    color: $brand-color;
+  }
+}

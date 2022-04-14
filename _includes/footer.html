@@ -5,13 +5,6 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-<!--        <p class="feed-subscribe">-->
-<!--          <a href="{{ 'feed.xml' | relative_url }}">-->
-<!--            <svg class="svg-icon orange">-->
-<!--              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>-->
-<!--            </svg><span>Subscribe</span>-->
-<!--          </a>-->
-<!--        </p>-->
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
@@ -32,10 +25,7 @@
       {%- include social.html -%}
     </div>
 
-    <div class="legal">
-      Snailed It Development Ltd (Company No. 13620216) is registered in England and Wales. <br>
-      Registered Office: 7 Bell Yard, London, WC2A 2JR
-    </div>
+    {%- include snailed-it.html -%}
   </div>
 
 </footer>
