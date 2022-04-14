@@ -19,5 +19,5 @@ FocusCuts requires macOS Monterey, as previous versions of macOS do not support 
 
 ## Contact
 Do you have a feature request or a bug report? Feel free to reach out!
-- [Twitter](twitter.com/SnailedItDev)
+- [Twitter](https://twitter.com/SnailedItDev)
 - [Email](mailto:{{ site.email | encode_email }})
