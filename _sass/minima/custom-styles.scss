@@ -148,22 +148,39 @@
     background-color: $background-color;
     color: $text-color;
     padding: 0.5em;
-    width: 50%;
+    max-width: 100%;
+    @media (min-width: $on-palm) {
+      width: 50%;
+    }
+    @media (max-width: $on-palm) {
+      width: inherit;
+      &:not(:last-of-type) {
+        margin-bottom: 0.75em;
+      }
+    }
   }
 
   input[type="submit"] {
-    max-width: 20%;
-    width: auto;
+    @media (min-width: $on-palm) {
+      max-width: 20%;
+      width: auto;
+    }
   }
 
   form {
-    display: flex;
+    @media (max-width: $on-palm) {
+      display: grid;
+    }
+    @media (min-width: $on-palm) {
+      display: flex;
 
-    .field {
-      margin-right: 0.5em;
-      width: 22em;
+      .field {
+        margin-right: 0.5em;
+        width: 22em;
+      }
     }
   }
+}
 
 .post-content {
   margin-bottom: $spacing-unit;
