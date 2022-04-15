@@ -114,8 +114,6 @@
   }
 }
 
-
-
 .legal {
   display: grid;
   grid-template-areas: "icon text";
@@ -123,16 +121,47 @@
   padding-top: 1em;
   margin-left: auto;
   margin-right: auto;
+
   .icon {
     grid-area: icon;
+
     .snail-icon {
       height: 2em;
       padding-right: 1em;
     }
   }
+
   .text {
     grid-area: text;
     font-size: 0.6em;
     color: $brand-color;
+  }
+}
+
+.email-form {
+  padding-bottom: 2em;
+  textarea,
+  select,
+  input {
+    border: 1px solid $text-color;
+    border-radius: 5px;
+    background-color: $background-color;
+    color: $text-color;
+    padding: 0.5em;
+    width: 50%;
+  }
+
+  input[type="submit"] {
+    max-width: 20%;
+    width: auto;
+  }
+
+  form {
+    display: flex;
+
+    .field {
+      margin-right: 0.5em;
+      width: 22em;
+    }
   }
 }
