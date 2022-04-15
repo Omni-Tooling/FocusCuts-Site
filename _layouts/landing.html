@@ -12,6 +12,8 @@ layout: default
     {{ content }}
   </div>
 
+  {% include email-signup.html %}
+
   {% assign posts = site.posts %}
   {%- if posts.size > 0 -%}
   <h2 class="post-list-heading">Recent Updates</h2>
