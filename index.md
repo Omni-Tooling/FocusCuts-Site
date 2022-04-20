@@ -4,7 +4,7 @@ title: FocusCuts
 ---
 
 ## What is FocusCuts
-FocusCuts by [SnailedIt Development](https://snailedit.dev) is a status bar application for macOS which gives you three Shorcut actions to manage your Focus Modes. With FocusCuts you are also able to customise a list of Shortcuts to display and quickly run _per_ Focus Mode. So if you want to have an easily accessible list of Shortcuts available for Work, but a different list for your Personal Focus Mode, you can!
+FocusCuts by [Snailed It Development](https://snailedit.dev) is a status bar application for macOS which gives you three Shorcut actions to manage your Focus Modes. With FocusCuts you are also able to customise a list of Shortcuts to display and quickly run _per_ Focus Mode. So if you want to have an easily accessible list of Shortcuts available for Work, but a different list for your Personal Focus Mode, you can!
 
 ## Shortcuts Actions
 FocusCuts has three [Shortcuts actions](/shortcuts) to detect Focus Modes and provide further details:
