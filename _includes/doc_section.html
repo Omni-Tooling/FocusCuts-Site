@@ -1,6 +1,6 @@
 <h2><a id="{{ anchor_link }}" href="#{{ anchor_link }}">{{ anchor }}</a>&nbsp;{{ doc.title }}</h2>
-<p>{{ doc.content | markdownify }}</p>
-{% if doc.tip %}
+{{ doc.content | markdownify }}
+{%- if doc.tip %}
 <div class="docs-tip">
     <span class="tip-title">
     <strong>Tip:</strong>
