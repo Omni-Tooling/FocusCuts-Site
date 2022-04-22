@@ -4,7 +4,6 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <img class="homepage-icon" src="/assets/icons/FocusCuts-Rounded.png" />
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
@@ -12,7 +11,21 @@ layout: default
     {{ content }}
   </div>
 
-  {% include email-signup.html %}
+  {% assign page_content = site.landing | where: "published", true | sort: "order" %}
+
+  {% for section in page_content %}
+    {% capture align-class %}{% cycle 'right', 'left' %}{% endcapture %}
+    <div class="section{% if section.image %} section-{{ align-class }}{% endif %}">
+      {% if section.image %}
+      <div class="section-image">
+        <img src="/assets/{{ section.image.asset }}" alt="{{ section.image.alt }}">
+      </div>
+      {% endif %}
+      <div class="section-text">
+      {% include landing_section.html %}
+      </div>
+    </div>
+  {% endfor %}
 
   {% assign posts = site.posts %}
   {%- if posts.size > 0 -%}
