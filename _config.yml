@@ -23,4 +23,5 @@ whitelist:
   - jekyll-redirect-from
 collections:
   - documentation
+  - landing
   - shortcuts_actions
