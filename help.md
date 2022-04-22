@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: collection-with-menu
 title: Documentation
 redirect_from:
   - /documentation

@@ -1,5 +1,5 @@
 ---
-layout: shortcuts
+layout: collection-with-menu
 title: Shortcuts Actions
 redirect_from:
   - /shortcuts-actions
