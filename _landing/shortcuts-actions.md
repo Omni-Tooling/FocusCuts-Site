@@ -2,7 +2,9 @@
 title: Shortcuts Actions
 published: true
 order: 2
-image: 
+image:
+  asset: shortcuts-actions.png
+  alt: FocusCuts Shortcuts Actions
 ---
 FocusCuts has three [Shortcuts actions](/shortcuts) to detect Focus Modes and provide further details:
 
