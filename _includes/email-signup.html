@@ -1,8 +1,6 @@
 <!--Zoho Campaigns Web-Optin Form Starts Here-->
 
 <div data-type="signupform" class="email-form">
-    <h3>Email Newsletter</h3>
-    <p>Sign up to get updates about FocusCuts. We won't spam you and you can easily unsubscribe at any time.</p>
     <form method="POST" action="https://maillist-manage.eu/weboptin.zc" target="_zcSignup">
         <input class="field" type="text" placeholder="Email" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL">
         <input class="submit" type="submit" name="SIGNUP_SUBMIT_BUTTON" value="Sign Up">
@@ -10,19 +8,19 @@
         <input type="hidden" name="submitType" value="optinCustomView">
         <input type="hidden" name="emailReportId" value="">
         <input type="hidden" name="formType" value="QuickForm">
-        <input type="hidden" name="zx" value="14ace68302">
+        <input type="hidden" name="zx" value="{{ site.email_form.zx }}">
         <input type="hidden" name="zcvers" value="2.0">
         <input type="hidden" name="oldListIds" value="">
         <input type="hidden" name="mode" value="OptinCreateView">
-        <input type="hidden" name="zcld" value="1159dc37fd887db7">
-        <input type="hidden" name="zctd" value="1159dc37fd887dc4">
+        <input type="hidden" name="zcld" value="{{ site.email_form.zcld }}">
+        <input type="hidden" name="zctd" value="{{ site.email_form.zctd }}">
         <input type="hidden" value="">
         <input type="hidden" value="vopm.maillist-manage.eu">
         <input type="hidden" value="0">
         <input type="hidden" value="0">
         <input type="hidden" name="zc_trackCode" value="ZCFORMVIEW">
         <input type="hidden" name="zc_formIx"
-               value="3z7d7f20fcd133ab46c128c2dd67200163c35765cf88f3394f74bbe5dffe3de294">
+               value="{{ site.email_form.zc_formIx }}">
         <input type="hidden" value="URL_ACTION">
         <input type="hidden" name="scriptless" value="yes">
     </form>
