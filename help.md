@@ -6,5 +6,7 @@ redirect_from:
   - /docs
 menu: true
 menu_order: 1
+collection: documentation
+anchor_text: §
 ---
 
