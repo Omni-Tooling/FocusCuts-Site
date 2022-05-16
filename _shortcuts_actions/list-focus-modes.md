@@ -10,6 +10,7 @@ This action returns a list of your Focus Modes.  Each Focus Mode is returned as 
 - Next Scheduled Start
 - Next Scheduled End
 
-<div class="docs-image">
+<figure>
 <object type="image/svg+xml" data="/assets/auto/shortcuts-focus-mode-attributes.svg"></object>
-</div>
+<figcaption>Selecting an attribute of a Focus Mode in ShortCuts</figcaption>
+</figure>
