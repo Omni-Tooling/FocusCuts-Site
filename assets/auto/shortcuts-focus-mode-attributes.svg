@@ -16,9 +16,9 @@
         }
     </style>
     <g id="light">
-        <image href="/assets/light/shortcuts-focus-mode-attributes.png"/>
+        <image width="100%" height="100%" href="/assets/light/shortcuts-focus-mode-attributes.png"/>
     </g>
     <g id="dark">
-        <image href="/assets/dark/shortcuts-focus-mode-attributes.png"/>
+        <image width="100%" height="100%" href="/assets/dark/shortcuts-focus-mode-attributes.png"/>
     </g>
 </svg>
