@@ -16,9 +16,9 @@
         }
     </style>
     <g id="light">
-        <image href="/assets/light/start-at-login.png"/>
+        <image width="100%" height="100%" href="/assets/light/start-at-login.png"/>
     </g>
     <g id="dark">
-        <image href="/assets/dark/start-at-login.png"/>
+        <image width="100%" height="100%" href="/assets/dark/start-at-login.png"/>
     </g>
 </svg>

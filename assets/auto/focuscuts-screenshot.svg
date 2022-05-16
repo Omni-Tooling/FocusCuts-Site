@@ -16,9 +16,9 @@
         }
     </style>
     <g id="light">
-        <image href="/assets/light/focuscuts-screenshot.png"/>
+        <image width="100%" height="100%" href="/assets/light/focuscuts-screenshot.png"/>
     </g>
     <g id="dark">
-        <image href="/assets/dark/focuscuts-screenshot.png"/>
+        <image width="100%" height="100%" href="/assets/dark/focuscuts-screenshot.png"/>
     </g>
 </svg>
