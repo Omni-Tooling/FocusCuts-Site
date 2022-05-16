@@ -3,7 +3,7 @@ title: A Focused Menu Bar
 published: true
 order: 3
 image:
-    asset: focuscuts-statusbar.png
+    svg: auto/focuscuts-statusbar.svg
     alt: FocusCuts Menubar
 ---
 Take advantage of your current Focus Mode and keep the relevant Shortcuts at hand. You can either select specific 

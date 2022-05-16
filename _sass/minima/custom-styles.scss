@@ -202,7 +202,8 @@
   padding-bottom: 1em;
 
   .section-image {
-    img {
+    img,
+    object {
       max-height: 250px;
     }
   }
