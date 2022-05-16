@@ -55,14 +55,18 @@
     grid-area: documentation;
     width: 100%;
 
-    object {
+    object.inline {
       height: 1em;
     }
 
-    img:not(.shortcuts-action) {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+    img:not(.shortcuts-action),
+    object:not(.inline) {
+      max-width: 100%;
+      min-width: 50%;
+      max-height: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .shortcuts-action {
@@ -207,6 +211,7 @@
     .section-image {
       grid-column: 1;
     }
+
     .section-text {
       grid-column: 2;
     }
@@ -216,6 +221,7 @@
     .section-text {
       grid-column: 1;
     }
+
     .section-image {
       grid-column: 2;
     }
