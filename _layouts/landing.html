@@ -18,7 +18,11 @@ layout: default
     <div class="section{% if section.image %} section-{{ align-class }}{% endif -%}">
       {%- if section.image -%}
       <div class="section-image">
+      {%- if section.image.svg -%}
+        <object type="image/svg+xml" data="/assets/{{ section.image.svg }}"></object>
+      {%- else -%}
         <img src="/assets/{{ section.image.asset }}" alt="{{ section.image.alt }}">
+      {%- endif -%}
       </div>
       {%- endif -%}
       <div class="section-text">
