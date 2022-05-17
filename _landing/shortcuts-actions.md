@@ -3,7 +3,7 @@ title: Shortcuts Actions
 published: true
 order: 2
 image:
-  svg: auto/shortcuts-actions.svg
+  asset: auto/shortcuts-actions.svg
   alt: FocusCuts Shortcuts Actions
 ---
 FocusCuts has three [Shortcuts actions](/shortcuts) to detect Focus Modes and provide further details:
