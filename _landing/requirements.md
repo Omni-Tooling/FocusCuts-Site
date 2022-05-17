@@ -3,7 +3,7 @@ title: Requirements
 published: true
 order: 9
 image:
-    svg: auto/focuscuts-screenshot.svg
+    asset: auto/focuscuts-screenshot.svg
     alt: Screenshot of FocusCuts
 ---
 FocusCuts requires macOS Monterey, as previous versions of macOS do not support Shortcuts or Focus Modes. Sadly 
