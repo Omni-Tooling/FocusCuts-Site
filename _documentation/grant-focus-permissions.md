@@ -4,7 +4,7 @@ published: true
 ---
 <figure>
 <object type="image/svg+xml" data="/assets/auto/folder-access-needed.svg"></object>
-<figcaption>Focus Cuts showing that it does not have access to read your Focus Mode</figcaption>
+<figcaption>FocusCuts showing that it does not have access to read your Focus Mode</figcaption>
 </figure>
 When you first launch FocusCuts, or after migrating to a new device, you will need to grant FocusCuts permission to 
 read your Focus Mode status. If the popup (below) does not appear automatically, you can trigger it by clicking 
