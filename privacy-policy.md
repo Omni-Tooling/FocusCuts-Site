@@ -15,7 +15,7 @@ redirect_from:
 
 Effective {{ page.date | date: '%B %d, %Y' }}
 
-**Privacy Policy**
+# Privacy Policy
 
 Snailed It Development Ltd (“FocusCuts”, "Snailed It", “we”, or “us”) recognizes the importance of privacy. We want you to feel confident using our services, and this privacy policy (“Policy”) is to help you understand and describe how we collect, use, and disclose information that we obtain about users of our software, websites, services, plug-ins or other Downloadable Tools (all of which we refer to as the “Platform”).
 
