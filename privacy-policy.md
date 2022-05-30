@@ -7,13 +7,15 @@ redirect_from:
 - /policy
 - /data
 - /security
+- /gdpr
+- /dsgvo
 ---
 
-Effective April 22, 2022
+Effective May 30, 2022
 
 **Privacy Policy**
 
-Snailed It Development Ltd (“FocusCuts”, "Snailed It", “we”, or “us”) recognizes the importance of privacy. We want you to feel confident using our services, and this privacy policy (“Policy”) is to help you understand and describe how we collect, use, and disclose information that we obtain about users of our software, websites, services, plug-ins or other Downloadable Tools (all of which we refer to as the “Platform”). 
+Snailed It Development Ltd (“FocusCuts”, "Snailed It", “we”, or “us”) recognizes the importance of privacy. We want you to feel confident using our services, and this privacy policy (“Policy”) is to help you understand and describe how we collect, use, and disclose information that we obtain about users of our software, websites, services, plug-ins or other Downloadable Tools (all of which we refer to as the “Platform”).
 
 FocusCuts collects data on your device, and this is stored on your device. This information is not transmitted to, and cannot be accessed by us or any 3rd parties.
 
@@ -23,7 +25,7 @@ If you sign up to the newsletter for FocusCuts, we will store your name and emai
 
 ## Changes to this Policy
 
-This Policy is current as of the Effective Date set forth above. We may change this Policy from time to time, and if we do we’ll post any changes, including any material changes, on this page, so please be sure to check back periodically. If you continue to use WhenWorks after those changes are in effect, you agree to the revised Policy.
+This Policy is current as of the Effective Date set forth above. We may change this Policy from time to time, and if we do we’ll post any changes, including any material changes, on this page, so please be sure to check back periodically. If you continue to use FocusCuts after those changes are in effect, you agree to the revised Policy.
 
 ## Contacting Us
 
