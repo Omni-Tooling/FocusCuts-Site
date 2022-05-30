@@ -2,8 +2,8 @@ title: FocusCuts
 email: focuscuts@snailedit.dev
 tagline: Focus on your Shortcuts
 description: Get your current Focus Mode in Shortcuts, and have better access to the right Shortcuts for the Focus Mode you're currently in.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: focuscuts.com
+baseurl: ""
+url: "https://focuscuts.com"
 
 # Build settings
 theme: minima
