@@ -27,4 +27,4 @@ This Policy is current as of the Effective Date set forth above. We may change t
 
 ## Contacting Us
 
-If you have any questions or comments about this policy, please contact us at [help@whenworks.app](mailto:help@whenworks.app).
+If you have any questions or comments about this policy, please [email us](mailto:{{ site.email | encode_email }}).
