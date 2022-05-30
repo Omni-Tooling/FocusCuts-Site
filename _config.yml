@@ -4,6 +4,7 @@ tagline: Focus on your Shortcuts
 description: Get your current Focus Mode in Shortcuts, and have better access to the right Shortcuts for the Focus Mode you're currently in.
 baseurl: ""
 url: "https://focuscuts.com"
+permalink: pretty
 
 # Build settings
 theme: minima
