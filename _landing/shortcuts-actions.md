@@ -6,9 +6,9 @@ image:
   asset: auto/shortcuts-actions.svg
   alt: FocusCuts Shortcuts Actions
 ---
-FocusCuts has three [Shortcuts actions](/shortcuts) to detect Focus Modes and provide further details:
+FocusCuts has three [Shortcuts actions]({% link shortcuts %}) to detect Focus Modes and provide further details:
 
 {% assign sc_collection = site.shortcuts_actions | where: "published", true | sort: "title" %}
 {% for shortcut in sc_collection %}
-- [{{shortcut.title}}](/shortcuts#{{shortcut.slug}})
-  {% endfor %}
+- [{{shortcut.title}}]({% link shortcuts %}/#{{shortcut.slug}})
+{% endfor %}
