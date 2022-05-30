@@ -1,5 +1,7 @@
 ---
 title: 'Privacy Policy'
+date: 2022-05-30
+updated: 2022-05-30
 published: true
 layout: default
 redirect_from:
@@ -11,7 +13,7 @@ redirect_from:
 - /dsgvo
 ---
 
-Effective May 30, 2022
+Effective {{ page.date | date: '%B %d, %Y' }}
 
 **Privacy Policy**
 
@@ -25,8 +27,10 @@ If you sign up to the newsletter for FocusCuts, we will store your name and emai
 
 ## Changes to this Policy
 
-This Policy is current as of the Effective Date set forth above. We may change this Policy from time to time, and if we do we’ll post any changes, including any material changes, on this page, so please be sure to check back periodically. If you continue to use FocusCuts after those changes are in effect, you agree to the revised Policy.
+This Policy is current as of the Effective Date set forth above ({{ page.date }}). We may change this Policy from time to time, and if we do we’ll post any changes, including any material changes, on this page, so please be sure to check back periodically. If you continue to use FocusCuts after those changes are in effect, you agree to the revised Policy.
 
 ## Contacting Us
 
 If you have any questions or comments about this policy, please [email us](mailto:{{ site.email | encode_email }}).
+
+Updated {{ page.updated | date: '%B %d, %Y' }}
