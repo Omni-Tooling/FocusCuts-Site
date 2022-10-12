@@ -210,16 +210,63 @@
 }
 
 .section {
-  display: grid;
-  gap: 1em;
-  grid-auto-flow: column;
-  padding-bottom: 1em;
+  grid: auto-flow / 1fr;
+  padding-bottom: 2em;
+  @media (min-width: $on-palm) {
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: column;
+  }
+  @include media-query($on-palm) {
+    display: block;
+  }
 
   .section-image {
-    img,
-    object {
-      max-height: 350px;
+    align-items: center;
+    display: flex;
+
+    @media (min-width: $on-palm) {
       width: 300px;
+    }
+    @include media-query($on-palm) {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    img,
+    object,
+    picture {
+      @media (min-width: $on-palm) {
+        max-width: 300px;
+      }
+      @include media-query($on-palm) {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        max-width: 80%;
+        padding-bottom: 1em;
+      }
+    }
+  }
+
+  .section-text {
+    @include media-query($on-palm) {
+      width: 100%;
+    }
+
+    blockquote:not(:last-of-type) {
+      margin-bottom: 2em;
+    }
+
+    p {
+      &:first-of-type {
+        margin-top: 2em;
+      }
+
+      &:empty {
+        display: none;
+      }
     }
   }
 
@@ -240,6 +287,14 @@
 
     .section-image {
       grid-column: 2;
+    }
+  }
+
+  &-center {
+    .section-text {
+      grid-column-end: 2;
+      grid-column-start: 1;
+      text-align: center;
     }
   }
 }
