@@ -39,7 +39,8 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/focuscuts-social.png
+      image:
+        asset: focuscuts-social.png
 twitter:
   username: snaileditdev
   card: Focus on your Shortcuts
