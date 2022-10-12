@@ -39,10 +39,10 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/icons/FocusCuts-Rounded.png
+      image: /assets/focuscuts-social.png
 twitter:
   username: snaileditdev
   card: Focus on your Shortcuts
 
 open_graph:
-  image: /assets/icons/FocusCuts-Rounded.png
+  image: /assets/focuscuts-social.png
