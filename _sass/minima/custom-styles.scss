@@ -236,6 +236,7 @@
     img,
     object,
     picture {
+      width: 100%;
       @media (min-width: $on-palm) {
         max-width: 300px;
       }
