@@ -46,3 +46,9 @@ twitter:
 
 open_graph:
   image: /assets/focuscuts-social.png
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - vendor/bin
