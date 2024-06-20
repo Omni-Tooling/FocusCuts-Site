@@ -2,8 +2,9 @@
 $content-width: 1000px;
 :root {
   --secondary-text-color: #{lighten($lm-text-color, 50%)};
-}
-@media (prefers-color-scheme: dark) {
-  --secondary-text-color: #{darken($lm-text-color, 50%)};
+
+  @media (prefers-color-scheme: dark) {
+    --secondary-text-color: #{darken($lm-text-color, 50%)};
+  }
 }
 $secondary-color: var(--secondary-text-color);
