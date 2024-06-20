@@ -1,0 +1,24 @@
+<svg width="100%" height="100%" viewBox="0 0 551 491" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;fill:currentColor" id="shortcuts-actions">
+    <style>
+        #light {
+            display: block;
+        }
+        #dark {
+            display: none;
+        }
+        @media (prefers-color-scheme: dark) {
+            #light {
+                display: none;
+            }
+            #dark {
+                display: block;
+            }
+        }
+    </style>
+    <g id="light">
+        <image width="100%" height="100%" href="/assets/light/shortcuts-actions.png"/>
+    </g>
+    <g id="dark">
+        <image width="100%" height="100%" href="/assets/dark/shortcuts-actions.png"/>
+    </g>
+</svg>
