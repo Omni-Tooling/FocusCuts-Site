@@ -1,0 +1,35 @@
+@import url("https://cdn-images.mailchimp.com/embedcode/classic-061523.css");
+
+$font-size: 14px;
+$font-stack: Helvetica, Arial, sans-serif;
+$container-width: 600px;
+
+@mixin color-scheme-theme {
+  .dark-theme {
+    display: flex;
+  }
+  .light-theme {
+    display: none;
+  }
+}
+
+#mc_embed_signup{
+  clear: left;
+  font: $font-size $font-stack;
+  width: $container-width;
+  background-color: transparent;
+
+  form {
+    margin: 0;
+  }
+
+  .dark-theme {
+    display: none;
+  }
+  .light-theme {
+    display: flex;
+  }
+  @media (prefers-color-scheme: dark) {
+    @include color-scheme-theme;
+  }
+}
